@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../DealerOn-assessment"
+		},
+		{
+			"path": "../DealerOn-assessment-npm"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DealerOn-assessment"
+	}
+}
