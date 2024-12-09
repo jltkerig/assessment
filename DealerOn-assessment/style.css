@@ -1,0 +1,16 @@
+ 
+
+#hero1 {
+	color: #fff;
+	background-image: url("/img/jesse-bowser-c0I4ahyGIkA-unsplash.jpg");
+	background-size: cover;
+	background-color: hsla(0, 0%, 0%, 0.6) "
+}
+#hero1 h1 {
+  font-weight:800;
+}
+#hero2{
+  background-image: url(" / img/mark-basarab-unsplash.jpg ");
+	background-size: cover;
+  background-color: hsla(0, 0%, 0%, 0.6)";
+}
