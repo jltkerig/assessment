@@ -73,9 +73,6 @@ mark {
 	background-color: darkgrey;
 }
 .col-img {
-	float: none;
-	display: table-cell;
-	vertical-align: bottom;
 }
 footer {
 	color: #fff;
@@ -125,17 +122,12 @@ footer {
 	-webkit-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 }
-.gallery.pop {
-	-webkit-filter: blur(10px);
-	filter: blur(10px);
-}
 .gallery figure {
 	-ms-flex-preferred-size: 33.333%;
 	flex-basis: 33.333%;
 	padding: 10px;
 	overflow: hidden;
 	border-radius: 10px;
-	cursor: pointer;
 }
 .gallery figure img {
 	width: 100%;
@@ -143,4 +135,17 @@ footer {
 	border-radius: 10px;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 600px) {
+	/*make bg lighter for black car to stand out easier*/
+	#hero2 {
+		background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("img/mark-basarab-unsplash.jpg");
+		background-size: cover;
+	}
+	/*gallery img 100% on mobile*/
+	.gallery figure {
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%;
+	}
 }
